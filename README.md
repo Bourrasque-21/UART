@@ -2,7 +2,7 @@
 
 ## Overview
 
-SystemVerilog로 구현한 UART RX/TX 기반 Loopback 설계임. UART로 수신한 데이터를 RX FIFO와 TX FIFO를 통해 전달한 후 동일한 데이터를 다시 송신함.
+SystemVerilog로 구현한 UART RX/TX 기반 Loopback 설계. UART로 수신한 데이터를 RX FIFO와 TX FIFO를 통해 전달한 후 동일한 데이터를 다시 송신함.
 
 100 MHz 시스템 클럭과 16배 oversampling을 기준으로 UART 8N1 통신을 수행하며, UVM testbench에서 random data, corner pattern 및 baud rate 오차 조건을 검증함.
 
